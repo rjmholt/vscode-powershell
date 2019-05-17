@@ -1,6 +1,80 @@
 # vscode-powershell Release History
 
 ## v2.0.0-preview.3
+### Friday, May 17 2019
+#### [vscode-powershell](https://github.com/PowerShell/vscode-powershell)
+
+- Add skeleton
+- Progress
+- WIP
+- Add thanks
+- Initial changelog generation
+- Add GH PR/issue fetching
+- Change segment function verb
+- Rename functions, fix parameter problems
+- Give proper names to functions
+- Simplify default parameters, move dir
+- Fix param name issue
+- Improve existing scripts, add PSES update script
+- Fix ads updater, add vsix version updater script
+- Copyright headers
+- Add AzureDataStudio update script
+- Remove redundant default
+- Add newline back in
+- Add newlines back in
+- Add requires back in
+- Update GH module
+- Generalize release script to work with PSES
+- Add GitHub release script
+- Change segment function verb
+- Rename functions, fix parameter problems
+- Give proper names to functions
+- Simplify default parameters, move dir
+- Update tools/repoUpdateScripts/updatePsesVersions.ps1
+- Fix param name issue
+- Improve existing scripts, add PSES update script
+- Fix ads updater, add vsix version updater script
+- Copyright headers
+- Add AzureDataStudio update script
+- [vscode-PowerShell #1932](https://github.com/PowerShell/vscode-powershell/1932) -
+  Add scripts for automatically updating the version of the PowerShell extension 
+- [vscode-PowerShell #1945](https://github.com/PowerShell/vscode-powershell/1945) -
+  Edit snippets to support $TM_SELECTED_TEXT  (Thanks @travis-c-lagrone!)
+- [vscode-PowerShell #1942](https://github.com/PowerShell/vscode-powershell/1942) -
+  stop supporting 6.0 
+- [vscode-PowerShell #1928](https://github.com/PowerShell/vscode-powershell/1928) -
+  Add RunCode command for CodeLens providers 
+- [vscode-PowerShell #1927](https://github.com/PowerShell/vscode-powershell/1927) -
+  fix change session by moving to async/await promise 
+- [vscode-PowerShell #1931](https://github.com/PowerShell/vscode-powershell/1931) -
+  Fix upload bug report 
+- [vscode-PowerShell #1925](https://github.com/PowerShell/vscode-powershell/1925) -
+  Fix error in HtmlContentView.ShowContent when no JS/CSS provided  (Thanks @rkeithhill!)
+- [vscode-PowerShell #1919](https://github.com/PowerShell/vscode-powershell/1919) -
+  Fix CustomViews by switching to WebViews 
+- [vscode-PowerShell #1922](https://github.com/PowerShell/vscode-powershell/1922) -
+  Fix small typo in Function-Inline description  (Thanks @V-ed!)
+- [vscode-PowerShell #1908](https://github.com/PowerShell/vscode-powershell/1908) -
+  Add powershell version telemetry 
+- [vscode-PowerShell #1900](https://github.com/PowerShell/vscode-powershell/1900) -
+  Small update to Azure Data Studio MP README  (Thanks @SQLvariant!)
+- [vscode-PowerShell #1871](https://github.com/PowerShell/vscode-powershell/1871) -
+  Azure pipelines 
+- [vscode-PowerShell #1867](https://github.com/PowerShell/vscode-powershell/1867) -
+  Change Whitespace settings to camelCase 
+- [vscode-PowerShell #1852](https://github.com/PowerShell/vscode-powershell/1852) -
+  Turn powershell.codeformatting.useCorrectCasing setting off by default until PSSA issues are fixed  (Thanks @bergmeister!)
+- 🐛 [vscode-PowerShell #1822](https://github.com/PowerShell/vscode-powershell/1838) -
+  Set featureFlag default to null so that it can be resolved by settings 
+- [vscode-PowerShell #1839](https://github.com/PowerShell/vscode-powershell/1839) -
+  add initial credscan ymls 
+- [vscode-PowerShell #1837](https://github.com/PowerShell/vscode-powershell/1837) -
+  Not -EncodedCommand on Windows 
+- [vscode-PowerShell #1825](https://github.com/PowerShell/vscode-powershell/1825) -
+  Switch to current lowercase names for powershell and mdlint exts  (Thanks @rkeithhill!)
+- [vscode-PowerShell #1823](https://github.com/PowerShell/vscode-powershell/1823) -
+  Update to official TSLint ext in extensions.json, old version deprecated  (Thanks @rkeithhill!)
+## v2.0.0-preview.3
 ### Wednesday, April 10, 2019
 #### [vscode-powershell](https://github.com/powershell/vscode-powershell)
 
