@@ -1,6 +1,179 @@
 # vscode-powershell Release History
 
 ## v2.0.0-preview.3
+### Monday, May 20 2019
+#### [vscode-PowerShell](https://github.com/PowerShell/vscode-PowerShell)
+
+- Minor fixes -- but still there
+- Fix label bug
+- Update to open both changelogs
+- Current
+- Add skeleton
+- Progress
+- WIP
+- Add thanks
+- Initial changelog generation
+- Add GH PR/issue fetching
+- Change segment function verb
+- Rename functions, fix parameter problems
+- Give proper names to functions
+- Simplify default parameters, move dir
+- Fix param name issue
+- Improve existing scripts, add PSES update script
+- Fix ads updater, add vsix version updater script
+- Copyright headers
+- Add AzureDataStudio update script
+- Remove redundant default
+- Add newline back in
+- Add newlines back in
+- Add requires back in
+- Update GH module
+- Generalize release script to work with PSES
+- Add GitHub release script
+- Change segment function verb
+- Rename functions, fix parameter problems
+- Give proper names to functions
+- Simplify default parameters, move dir
+- Update tools/repoUpdateScripts/updatePsesVersions.ps1
+- Fix param name issue
+- Improve existing scripts, add PSES update script
+- Fix ads updater, add vsix version updater script
+- Copyright headers
+- Add AzureDataStudio update script
+- [vscode-PowerShell #1932](https://github.com/PowerShell/vscode-PowerShell/1932) -
+  Add scripts for automatically updating the version of the PowerShell extension 
+- [vscode-PowerShell #1945](https://github.com/PowerShell/vscode-PowerShell/1945) -
+  Edit snippets to support $TM_SELECTED_TEXT  (Thanks @travis-c-lagrone!)
+- [vscode-PowerShell #1942](https://github.com/PowerShell/vscode-PowerShell/1942) -
+  stop supporting 6.0 
+- [vscode-PowerShell #1928](https://github.com/PowerShell/vscode-PowerShell/1928) -
+  Add RunCode command for CodeLens providers 
+- [vscode-PowerShell #1927](https://github.com/PowerShell/vscode-PowerShell/1927) -
+  fix change session by moving to async/await promise 
+- [vscode-PowerShell #1931](https://github.com/PowerShell/vscode-PowerShell/1931) -
+  Fix upload bug report 
+- [vscode-PowerShell #1925](https://github.com/PowerShell/vscode-PowerShell/1925) -
+  Fix error in HtmlContentView.ShowContent when no JS/CSS provided  (Thanks @rkeithhill!)
+- [vscode-PowerShell #1919](https://github.com/PowerShell/vscode-PowerShell/1919) -
+  Fix CustomViews by switching to WebViews 
+- [vscode-PowerShell #1922](https://github.com/PowerShell/vscode-PowerShell/1922) -
+  Fix small typo in Function-Inline description  (Thanks @V-ed!)
+- [vscode-PowerShell #1908](https://github.com/PowerShell/vscode-PowerShell/1908) -
+  Add powershell version telemetry 
+- [vscode-PowerShell #1900](https://github.com/PowerShell/vscode-PowerShell/1900) -
+  Small update to Azure Data Studio MP README  (Thanks @SQLvariant!)
+- [vscode-PowerShell #1871](https://github.com/PowerShell/vscode-PowerShell/1871) -
+  Azure pipelines 
+- [vscode-PowerShell #1867](https://github.com/PowerShell/vscode-PowerShell/1867) -
+  Change Whitespace settings to camelCase 
+- [vscode-PowerShell #1852](https://github.com/PowerShell/vscode-PowerShell/1852) -
+  Turn powershell.codeformatting.useCorrectCasing setting off by default until PSSA issues are fixed  (Thanks @bergmeister!)
+- 🐛 [vscode-powershell #1822](https://github.com/PowerShell/vscode-PowerShell/1838) -
+  Set featureFlag default to null so that it can be resolved by settings 
+- [vscode-PowerShell #1839](https://github.com/PowerShell/vscode-PowerShell/1839) -
+  add initial credscan ymls 
+- [vscode-PowerShell #1837](https://github.com/PowerShell/vscode-PowerShell/1837) -
+  Not -EncodedCommand on Windows 
+- [vscode-PowerShell #1825](https://github.com/PowerShell/vscode-PowerShell/1825) -
+  Switch to current lowercase names for powershell and mdlint exts  (Thanks @rkeithhill!)
+- [vscode-PowerShell #1823](https://github.com/PowerShell/vscode-PowerShell/1823) -
+  Update to official TSLint ext in extensions.json, old version deprecated  (Thanks @rkeithhill!)
+
+#### [PowerShellEditorServices](https://github.com/PowerShell/PowerShellEditorServices)
+
+- Add comments about test ordering
+- Improve testing
+- Try ending server stream first
+- Test without skipping crash log exception
+- Improve error message
+- Add test exception for pwsh pipe close error
+- Use log parser to find errors
+- Try again with error file
+- Don't use stream when it doesn't exist
+- Try procinfo
+- Try stderr recording
+- Add server output to integration test
+- Update tools/PsesPsClient/Client.cs
+- Update PowerShellEditorServices.build.ps1
+- Rework module, address @TylerLeonhardt's feedback
+- Update tools/PsesPsClient/PsesPsClient.psd1
+- Add -Force flag
+- Ensure new enough Pester is installed
+- Pass through dotnet location
+- Improve client module building
+- Fix NRE in test
+- Fix typo
+- Merge branch 'master' into integration-tools
+- Remove .vscode folder
+- Publish Pester results in CI
+- Comply with some of Codacy's draconian views
+- Use better exceptions
+- Add doc comments
+- Try invoking pester in proc
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices/946) -
+  rename to use async 
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Change cancellation method
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Fix pipe disposal
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Ensure pipe is closed during disposal
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Add some documentation comments
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Attempt to exit
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Add diagnostic line;
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Fix process kill
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Kill process properly
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Rename pester test file to be more specific
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Fix build logic, add return types
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Add classes and types to psm1
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Response to Codacy bot's feedback
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Add pester installation to build step
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Add shutdown test
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Add simple startup test
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Start pipe module
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Make message reading work
+- [PowerShellEditorServices #946](https://github.com/PowerShell/PowerShellEditorServices) -
+  Add first parts of ps pses client
+- [PowerShellEditorServices #943](https://github.com/PowerShell/PowerShellEditorServices/943) -
+  Update parse log to handle Read/WrteMessageAsyncAdd progress percentage to parse command.Add textDocument/completion to ValidaeSet of MesssageNameparam on Get-PsesRpcMessageResponseTime command.  (Thanks @rkeithhill!)
+- [PowerShellEditorServices #921](https://github.com/PowerShell/PowerShellEditorServices/921) -
+  Set up CI with Azure Pipelines 
+- [PowerShellEditorServices #908](https://github.com/PowerShell/PowerShellEditorServices/908) -
+  Fix issue with reference code lens not working with UNC paths  (Thanks @rkeithhill!)
+- 🐛 [vscode-powershell #1571](https://github.com/PowerShell/PowerShellEditorServices/911) -
+  Fix faulty netfx check 
+- [PowerShellEditorServices #906](https://github.com/PowerShell/PowerShellEditorServices/906) -
+  Fix New-EditorFile with no folder or no files open 
+- ✨ [vscode-powershell #1398](https://github.com/PowerShell/PowerShellEditorServices/902) -
+  Improve path auto-completion  (Thanks @rkeithhill!)
+- [PowerShellEditorServices #910](https://github.com/PowerShell/PowerShellEditorServices/910) -
+  Fix UseCorrectCasing to be actually configurable via"powershell.codeFormatting.useCorrectCasing"  (Thanks @bergmeister!)
+- [PowerShellEditorServices #909](https://github.com/PowerShell/PowerShellEditorServices/909) -
+  Use global.json to pin .Net Core SDK version and update it from 2.1.402 to 2.1.602  (Thanks @bergmeister!)
+- [PowerShellEditorServices #903](https://github.com/PowerShell/PowerShellEditorServices/903) -
+  Move temp folder into repo to avoid state that causes build errors from time to time when rebuilding locally (and packages have updated)  (Thanks @bergmeister!)
+- [PowerShellEditorServices #904](https://github.com/PowerShell/PowerShellEditorServices/904) -
+  add initial credscan ymls 
+- [PowerShellEditorServices #901](https://github.com/PowerShell/PowerShellEditorServices/901) -
+  Switch to current lowercase names for powershell and mdlint exts  (Thanks @rkeithhill!)
+
+
+
+## v2.0.0-preview.3
 ### Wednesday, April 10, 2019
 #### [vscode-powershell](https://github.com/powershell/vscode-powershell)
 
